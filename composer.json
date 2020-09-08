@@ -1,0 +1,28 @@
+{
+  "name": "Jeffersontads/php_tips",
+  "description": "Projeto de configurações de IDE e conhecendo o composer php tips UPINSIDE",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jefferson Sotto",
+      "email": "jeffersontads@hotmail.com",
+      "role": "developer",
+      "homepage": "https://www.jrsotto.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "src/"
+    },
+    "files": [
+      "src/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2"
+  }
+}
